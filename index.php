@@ -15,15 +15,15 @@ spl_autoload_register(function ($class) {
     <meta charset="utf-8">
     <title>Agenda de Clientes</title>
     <!-- Theme CSS -->
-    <link href="content/bootstrap.css" rel="stylesheet">
-    <link href="content/bootstrap.min.css" rel="stylesheet">
-    <link href="content/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- Bootstrap core JavaScript -->
-    <script src="scripts/jquery.js"></script>
-    <script src="scripts/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js"></script>
-    <script src="scripts/bootstrap.bundle.js"></script>
-    <script src="scripts/bootstrap.bundle.min.js"></script>
-    <script src="scripts/modal.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jQuery-Mask-Plugin-master/dist/jquery.mask.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/modal.js"></script>
 </header>
 
 <body>
