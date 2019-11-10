@@ -14,7 +14,7 @@
                         <a class="nav-link navbar-color bold" href="index.php">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Medicamentos</a>
+                        <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="#">Farmácias</a>
@@ -39,7 +39,7 @@
                         <a class="nav-link navbar-color " href="index.php">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color bold" href="#">Medicamentos</a>
+                        <a class="nav-link navbar-color bold" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="#">Farmácias</a>
