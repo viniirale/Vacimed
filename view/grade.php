@@ -39,9 +39,9 @@
                         <td><?php echo $produto->tpEntradaEstoque; ?></td>
                         
                         <td>
-                            <a href="?controller=ClientsController&method=edit&id=<?php echo $produto->id; ?>" class="btn btn-primary btn-sm">Editar</a>
+                            <a href="?controller=ProdutosController&method=edit&id=<?php echo $produto->id; ?>" class="btn btn-primary btn-sm">Editar</a>
 
-                            <a href="?controller=ClientsController&method=delete&id=<?php echo $produto->id; ?>" class="btn btn-danger btn-sm">Deletar</a>
+                            <a href="?controller=ProdutosController&method=delete&id=<?php echo $produto->id; ?>" class="btn btn-danger btn-sm">Deletar</a>
 
 
                         </td>

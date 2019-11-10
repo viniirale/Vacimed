@@ -13,7 +13,7 @@ spl_autoload_register(function ($class) {
 <html lang='pt-br'>
 <header>
     <meta charset="utf-8">
-    <title>Agenda de Clientes</title>
+    <title>Tem remédio</title>
     <!-- Theme CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,9 +45,9 @@ spl_autoload_register(function ($class) {
             echo "Controller não encontrado!";
         }
     } else {
-        echo '<div class="container"><h1>Clientes</h1><hr>';
+        echo '<div class="container"><h1>Tem Remédio</h1><hr>';
         echo 'Bem-vindo ao aplicativo da Tem Remédio! <br /><br />';
-        echo '<a href="?controller=ClientsController&method=list" class="btn btn-success">Vamos Começar!</a></div>';
+        echo '<a href="?controller=ProdutosController&method=list" class="btn btn-success">Vamos Começar!</a></div>';
     }
     ?>
 

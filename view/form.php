@@ -1,5 +1,5 @@
 <div class="container">
-    <form class="needs-validation" action="?controller=ClientsController&<?php echo isset($client->id) ? "method=refresh&id={$client->id}" : "method=save"; ?>" method="post">
+    <form class="needs-validation" action="?controller=ProdutosController&<?php echo isset($client->id) ? "method=refresh&id={$client->id}" : "method=save"; ?>" method="post">
         <div class="card" style="top:40px">
             <div class="card-header">
                 <span class="card-title">Produtos</span>
@@ -82,7 +82,7 @@
             <div class="card-footer">
                 <input type="hidden" name="id" id="id" value="<?php echo isset($produto->id) ? $produto->id : null; ?>" />
                 <button class="btn btn-success" type="submit">Salvar</button>
-                <a class="btn btn-danger" href="?controller=ClientsController&method=list">Cancelar</a>
+                <a class="btn btn-danger" href="?controller=ProdutosController&method=list">Cancelar</a>
             </div>
         </div>
     </form>
