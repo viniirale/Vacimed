@@ -13,6 +13,9 @@
                 <th>Programa de saúde</th>
                 <th>CNPJ distribuidor</th>
                 <th>CNPJ fabricante</th>
+            </tr>
+
+            <tr>
                 <th>Nota fiscal</th>
                 <th>Valor unitário</th>
                 <th>Entrada de estoque</th>
@@ -37,13 +40,10 @@
                         <td><?php echo $produto->nuNotaFiscal; ?></td>
                         <td><?php echo $produto->nuValorUnitario; ?></td>
                         <td><?php echo $produto->tpEntradaEstoque; ?></td>
-                        
+
                         <td>
                             <a href="?controller=ProdutosController&method=edit&id=<?php echo $produto->id; ?>" class="btn btn-primary btn-sm">Editar</a>
-
                             <a href="?controller=ProdutosController&method=delete&id=<?php echo $produto->id; ?>" class="btn btn-danger btn-sm">Deletar</a>
-
-
                         </td>
                     </tr>
                 <?php
