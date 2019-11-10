@@ -154,4 +154,24 @@ class Produto
         }
         return false;
     }
+
+    /**
+     * Encontra um recurso pelos atributos
+     * @param type $id
+     * @return type
+     */
+    public static function search($params)
+    {
+        $connection = Connection::getInstance();
+        $stmt    = $connection->prepare("SELECT * FROM produto WHERE id='{$params}';");
+        if ($stmt->execute()) {
+            if ($stmt->rowCount() > 0) {
+                $result = $stmt->fetchObject('Produto');
+                if ($result) {
+                    return $result;
+                }
+            }
+        }
+        return false;
+    }
 }

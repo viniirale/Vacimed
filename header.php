@@ -57,7 +57,7 @@
         ?>
 
         <?php
-        if ($_SERVER['REQUEST_URI'] == "/farmacia.php") {
+        if (($_SERVER['REQUEST_URI'] == "/farmacia.php") || ($_SERVER['REQUEST_URI'] == "/farmacia.php?")) {
             ?>
             <div class="collapse navbar-collapse center-navbar " id="navbarNav">
                 <ul class="navbar-nav">

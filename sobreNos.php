@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
 
-<?php include 'head.php';?>
+<?php include 'head.php'; ?>
 
 <body>
 
@@ -30,6 +30,27 @@
         <div>
             <img id="nos" src="img/juntos.png" width="600" alt="vos" class="center">
         </div>
+
+        <container class="container font-roboto center marginTop">
+            <p>
+                <b>Camila</b> - 25 anos e necessidade de obter resultados. Estudante de Informática e ex-estudante de Engenharia Elétrica (UFRGS). Desenvolvedora.
+            </p>
+            <p>
+                <b>Luan</b> - 19 anos e muita vontade de aprender. Estudante de Informática. Desenvolvedor.
+            </p>
+            <p>
+                <b>Luíza</b> - 22 anos e constante busca por praticidade. Designer Gráfica (UniFtec) e estudante de Informática. Microempreendedora individual e suporte técnico em redes.
+            </p>
+            <p>
+                <b>Marcelo</b> - 26 anos e . Estudante de Ciência da Computação (UFRGS). Desenvolvedor e entusiasta de linguagens funcionais.
+            </p>
+            <p>
+                <b>Thaciely</b>, 24 anos. Apaixonada por entender as relações sociais e políticas que moldam o mundo. É analista em Políticas Públicas (UFRGS) e é responsável pelo relacionanamento com o poder público.
+            </p>
+            <p>
+                <b>Vinícius</b> - 25 anos e sempre busca compartilhar conhecimento. Estudante de Sistemas para Internet (IFRS), ex- estudante de Ciência da Computação (UFRGS). Desenvolvedor.
+            </p>
+        </container>
     </section>
 
     <?php include 'footer.php'; ?>

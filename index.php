@@ -57,12 +57,6 @@ spl_autoload_register(function ($class) {
 
         <?php include 'footer.php';?>
 
-        <?php
-            
-            echo '<div class="container"><h1>Tem Remédio</h1><hr>';
-            echo 'Bem-vindo ao aplicativo da Tem Remédio! <br /><br />';
-            echo '<a href="?controller=ProdutosController&method=list" class="btn btn-success">Vamos Começar!</a></div>';
-             ?>
     <?php
     }
     ?>
