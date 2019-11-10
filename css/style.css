@@ -54,3 +54,7 @@
 .flex-end {
 	justify-content: flex-end;
 }
+
+#info{
+  text-align:justify;
+}

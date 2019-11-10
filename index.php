@@ -49,7 +49,7 @@ spl_autoload_register(function ($class) {
     } else {
         ?>
         <section class="header-index">
-            <img src="img/logo" alt="Logo" width="300" height="118" class="img-fluid center">
+            <img src="img/logo.png" alt="Logo" width="300" height="118" class="img-fluid center">
 
         </section>
 
@@ -68,7 +68,7 @@ spl_autoload_register(function ($class) {
                             <a class="nav-link navbar-color" href="#">Farmácias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-color" href="#">Quem Somos</a>
+                            <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
@@ -80,11 +80,11 @@ spl_autoload_register(function ($class) {
 
         <section class="caption-image container2 flex-end">
             <div class="item">
-                <img src="img/icone-medicamento" alt="Medicamento" width="300" height="300" class="img-fluid center-flex" onclick="medicamentoLink(this)">
+                <img src="img/icone-medicamento.png" alt="Medicamento" width="300" height="300" class="img-fluid center-flex" onclick="medicamentoLink(this)">
                 <div class="caption font-roboto">Medicamentos</div>
             </div>
             <div class="item">
-                <img src="img/icone-farmacias" alt="Farmacia" width="300" height="300" class="img-fluid center-flex" onclick="farmaciaLink(this)">
+                <img src="img/icone-farmacias.png" alt="Farmacia" width="300" height="300" class="img-fluid center-flex" onclick="farmaciaLink(this)">
                 <div class="caption font-roboto">Farmácias</div>
             </div>
         </section>
@@ -108,9 +108,9 @@ spl_autoload_register(function ($class) {
                             <small><a class="nav-link navbar-color" href="#">Buscar meu Preço</a></small>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-color" href="#">Quem Somos</a>
-                            <small><a class="nav-link navbar-color" href="#">O Projeto</a></small>
-                            <small><a class="nav-link navbar-color" href="#">A Equipe</a></small>
+                            <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
+                            <small><a class="nav-link navbar-color" href="sobreNos.php#nossoprojeto">O Projeto</a></small>
+                            <small><a class="nav-link navbar-color" href="sobreNos.php#nos">A Equipe</a></small>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
