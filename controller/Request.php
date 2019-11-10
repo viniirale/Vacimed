@@ -8,10 +8,10 @@ class Request
         $this->request = $_REQUEST;
     }
  
-    public function __get($name)
+    public function __get($nuProduto)
     {
-        if (isset($this->request[$name])) {
-            return $this->request[$name];
+        if (isset($this->request[$nuProduto])) {
+            return $this->request[$nuProduto];
         }
         return false;
     }

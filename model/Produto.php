@@ -1,7 +1,7 @@
 <?php
 require_once(SITE_ROOT . 'app/Connection.php');
 
-class Client
+class Produto
 {
     private $attributes;
 
@@ -25,14 +25,14 @@ class Client
     }
 
     /**
-     * Salvar o cliente
+     * Salvar o Produto
      * @return boolean
      */
     public function save()
     {
         $columns = $this->prepare($this->attributes);
         if (!isset($this->id)) {
-            $query = "INSERT INTO client (" .
+            $query = "INSERT INTO produto (" .
                 implode(', ', array_keys($columns)) .
                 ") VALUES (" .
                 implode(', ', array_values($columns)) . ");";
@@ -42,7 +42,7 @@ class Client
                     $define[] = "{$key}={$value}";
                 }
             }
-            $query = "UPDATE client SET " . implode(', ', $define) . " WHERE id='{$this->id}';";
+            $query = "UPDATE produto SET " . implode(', ', $define) . " WHERE id='{$this->id}';";
         }
         if ($connection = Connection::getInstance()) {
             $stmt = $connection->prepare($query);
@@ -88,16 +88,16 @@ class Client
     }
 
     /**
-     * Retorna uma lista de clientes
+     * Retorna uma lista de Produto
      * @return array/boolean
      */
     public static function all()
     {
         $connection = Connection::getInstance();
-        $stmt    = $connection->prepare("SELECT * FROM client;");
+        $stmt    = $connection->prepare("SELECT * FROM produto;");
         $result  = array();
         if ($stmt->execute()) {
-            while ($rs = $stmt->fetchObject(Client::class)) {
+            while ($rs = $stmt->fetchObject(Produto::class)) {
                 $result[] = $rs;
             }
         }
@@ -114,7 +114,7 @@ class Client
     public static function count()
     {
         $connection = Connection::getInstance();
-        $count   = $connection->exec("SELECT count(*) FROM client;");
+        $count   = $connection->exec("SELECT count(*) FROM produto;");
         if ($count) {
             return (int) $count;
         }
@@ -129,10 +129,10 @@ class Client
     public static function find($id)
     {
         $connection = Connection::getInstance();
-        $stmt    = $connection->prepare("SELECT * FROM client WHERE id='{$id}';");
+        $stmt    = $connection->prepare("SELECT * FROM produto WHERE id='{$id}';");
         if ($stmt->execute()) {
             if ($stmt->rowCount() > 0) {
-                $result = $stmt->fetchObject('Client');
+                $result = $stmt->fetchObject('Produto');
                 if ($result) {
                     return $result;
                 }
@@ -149,7 +149,7 @@ class Client
     public static function destroy($id)
     {
         $connection = Connection::getInstance();
-        if ($connection->exec("DELETE FROM client WHERE id='{$id}';")) {
+        if ($connection->exec("DELETE FROM produto WHERE id='{$id}';")) {
             return true;
         }
         return false;
