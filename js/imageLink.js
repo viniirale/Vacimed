@@ -1,8 +1,8 @@
 function medicamentoLink(img) {
-    alert("Oi oie medicamento!");
+    window.location.href = "medicamentos.php";
 }
 function farmaciaLink(img) {
-    alert("Oi oie farmacia!");
+    window.location.href = "farmacia.php";
 }
 
 function ouvidoriaLink(){

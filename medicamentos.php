@@ -6,20 +6,17 @@
 <body>
 
     <?php include 'header.php'; ?>
-
-
-
     <div class="container font-roboto">
         <h3 class="text-center bold marginTop">BUSCA DE MEDICAMENTOS</h3>
         <p class="text-center">Preencha pelo menos um dos dados</p>
         <form class="row">
             <div class="form-group col-md-6">
-                <label for="exampleInputFarmacia">Farmacia</label>
+                <label for="exampleInputFarmacia">Nome do Medicamento</label>
                 <input type="text" class="form-control" id="exampleInputFarmacia">
 
             </div>
             <div class="form-group col-md-6">
-                <label for="exampleregistro">Registro</label>
+                <label for="exampleregistro">Número de Registro do Medicamento</label>
                 <input type="text" class="form-control" id="exampleinputRegistro">
             </div>
             <div class="form-group col-md-6">

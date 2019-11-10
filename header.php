@@ -17,7 +17,7 @@
                         <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Farmácias</a>
+                        <a class="nav-link navbar-color" href="farmacia.php">Farmácias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
@@ -42,7 +42,7 @@
                         <a class="nav-link navbar-color bold" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Farmácias</a>
+                        <a class="nav-link navbar-color" href="farmacia.php">Farmácias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
@@ -57,7 +57,7 @@
         ?>
 
         <?php
-        if ($_SERVER['REQUEST_URI'] == "/farmacias.php") {
+        if ($_SERVER['REQUEST_URI'] == "/farmacia.php") {
             ?>
             <div class="collapse navbar-collapse center-navbar " id="navbarNav">
                 <ul class="navbar-nav">
@@ -68,7 +68,7 @@
                         <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color bold" href="#">Farmácias</a>
+                        <a class="nav-link navbar-color bold" href="farmacia.php">Farmácias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
@@ -93,7 +93,7 @@
                         <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Farmácias</a>
+                        <a class="nav-link navbar-color" href="farmacia.php">Farmácias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color bold" href="sobreNos.php">Quem Somos</a>
@@ -118,7 +118,7 @@
                         <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Farmácias</a>
+                        <a class="nav-link navbar-color" href="farmacia.php">Farmácias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
