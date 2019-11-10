@@ -1,2 +1,56 @@
-.grade-css{
+.font-roboto{
+  font-family: 'Roboto';
+  color:#2c3f5a;
+  font-weight: bold;
+}
+
+.header-index {
+  background: #efefef;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-navbar {
+  display: flex!important;
+  justify-content: center!important;
+}
+
+.navbar-index {
+  background: #293d58!important;
+}
+
+.navbar-color {
+  color: white!important;
+}
+
+.caption-image {
+  text-align: center;
+  margin: 50px auto;
+  
+}
+
+.flex {
+	flex: 1;
+}
+
+.item {
+	text-align: center;
+	font-size: 1.5em;
+}
+/* Flex Container */
+.container2 {
+	max-width: 420px;
+	display: flex;
+}
+
+.center-flex {
+	justify-content: center;
+}
+
+.flex-end {
+	justify-content: flex-end;
 }
