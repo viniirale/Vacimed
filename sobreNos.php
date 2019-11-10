@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Sobe Nos</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <!-- Theme CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,21 +19,20 @@
 
 <body>
 
-    <section class="header-index">
-        <img src="img/logo.png" width="400" alt="Logo" class="img-fluid center">
-
-    </section>
+    <header class="header-index">
+        <img src="img/logo.png" alt="Logo" width="300" height="118" class="img-fluid center">
+    </header>
 
     <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-index ">
 
-            <div class="collapse navbar-collapse teste " id="navbarNav">
+            <div class="collapse navbar-collapse center-navbar " id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
                         <a class="nav-link navbar-color" href="index.php">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
+                        <a class="nav-link navbar-color" href="#">Medicamentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="#">Farmácias</a>
@@ -58,9 +58,12 @@
 
                 Durante o processo de idealização do projeto, percebemos que é recorrente a criação de ferramentas de buscas de remédios e tivemos algumas dificuldades em pensar o que poderíamos fazer de diferente.
 
-                Descobrimos então que existe o <b>BNAFAR (Base Nacional de Dados de Ações e Serviços da Assistência Farmacêutica)</b> com informações sobre o controle de entrada e saída dos recursos farmacêuticos públicos e privados. Com isso pudemos chegar a ideia final: uma aplicação que beneficia o cidadão e as redes farmacêuticas.
+                Descobrimos então que existe o <b>BNAFAR (Base Nacional de Dados de Ações e Serviços da Assistência Farmacêutica)</b> com informações sobre o controle de entrada e saída dos recursos farmacêuticos públicos e privados.
+            </p>
+            <p> Com isso pudemos chegar a ideia final: uma aplicação que beneficia o cidadão e as redes farmacêuticas.
 
-                O problema com a BNAFAR é que nem todos os órgãos públicos utilizam ferramentas conectadas com esse web service. O que torna instável a confiabilidade das informações. Com a criação e popularização da ferramenta, esperamos que os cidadãos possam questionar a ausência de certas informações e incentivar o governo a cada vez mais globalizar essas informações.
+                O problema com a BNAFAR é que nem todos os órgãos públicos utilizam ferramentas conectadas com esse web service.</p>
+            <p> O que torna instável a confiabilidade das informações. Com a criação e popularização da ferramenta, esperamos que os cidadãos possam questionar a ausência de certas informações e incentivar o governo a cada vez mais globalizar essas informações.
 
                 Conforme a popularização da ideia, podemos esperar geração de dados estatísticos úteis para que a máquina pública possa gerir melhor seus recursos e otimizá-los de acordo com as necessidades da população.
             </p>
@@ -69,14 +72,12 @@
         <div>
             <img id="nos" src="img/juntos.png" width="600" alt="vos" class="center">
         </div>
-
-
     </section>
 
-    <section>
+    <footer>
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-index ">
 
-            <div class="collapse navbar-collapse teste " id="navbarNav">
+            <div class="collapse navbar-collapse center-navbar " id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
                         <a class="nav-link navbar-color" href="#">Página Inicial</a>
@@ -92,9 +93,9 @@
                         <small><a class="nav-link navbar-color" href="#">Buscar meu Preço</a></small>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Quem Somos</a>
-                        <small><a class="nav-link navbar-color" href="#">O Projeto</a></small>
-                        <small><a class="nav-link navbar-color" href="#">A Equipe</a></small>
+                        <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
+                        <small><a class="nav-link navbar-color" href="sobreNos.php#nossoprojeto">O Projeto</a></small>
+                        <small><a class="nav-link navbar-color" href="sobreNos.php#nos">A Equipe</a></small>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
@@ -104,7 +105,7 @@
                 </ul>
             </div>
         </nav>
-    </section>
+    </footer>
 
 
 

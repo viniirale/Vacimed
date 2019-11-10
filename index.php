@@ -48,10 +48,9 @@ spl_autoload_register(function ($class) {
         }
     } else {
         ?>
-        <section class="header-index">
+        <header class="header-index">
             <img src="img/logo.png" alt="Logo" width="300" height="118" class="img-fluid center">
-
-        </section>
+        </header>
 
         <section>
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-index ">
@@ -59,7 +58,7 @@ spl_autoload_register(function ($class) {
                 <div class="collapse navbar-collapse center-navbar " id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link navbar-color" href="#">Página Inicial</a>
+                            <a class="nav-link navbar-color" href="index.php">Página Inicial</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navbar-color" href="#">Medicamentos</a>
@@ -78,18 +77,26 @@ spl_autoload_register(function ($class) {
             </nav>
         </section>
 
-        <section class="caption-image container2 flex-end">
-            <div class="item">
-                <img src="img/icone-medicamento.png" alt="Medicamento" width="300" height="300" class="img-fluid center-flex" onclick="medicamentoLink(this)">
-                <div class="caption font-roboto">Medicamentos</div>
-            </div>
-            <div class="item">
-                <img src="img/icone-farmacias.png" alt="Farmacia" width="300" height="300" class="img-fluid center-flex" onclick="farmaciaLink(this)">
-                <div class="caption font-roboto">Farmácias</div>
+        <section class="font-roboto">
+            <h3 class="text-center bold" id="oquedeseja">
+                <p>O QUE DESEJA BUSCAR?</p>
+            </h3>
+            <p class="text-center">
+                Selecione o icone abaixo referente ao que deseja pesquisar.
+            </p>
+            <div class="caption-image container2 flex-end ">
+                <div class="item">
+                    <img src="img/icone-medicamento.png" alt="Medicamento" width="300" height="300" class="img-fluid center-flex" onclick="medicamentoLink(this)">
+                    <div class="caption bold">Medicamentos</div>
+                </div>
+                <div class="item">
+                    <img src="img/icone-farmacias.png" alt="Farmacia" width="300" height="300" class="img-fluid center-flex" onclick="farmaciaLink(this)">
+                    <div class="caption bold">Farmácias</div>
+                </div>
             </div>
         </section>
 
-        <section>
+        <footer>
             <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-index ">
 
                 <div class="collapse navbar-collapse center-navbar " id="navbarNav">
@@ -120,7 +127,7 @@ spl_autoload_register(function ($class) {
                     </ul>
                 </div>
             </nav>
-        </section>
+        </footer>
 
         <?php
             /*
