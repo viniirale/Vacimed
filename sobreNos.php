@@ -42,7 +42,7 @@
                 <b>Luíza</b> - 22 anos e constante busca por praticidade. Designer Gráfica (UniFtec) e estudante de Informática. Microempreendedora individual e suporte técnico em redes.
             </p>
             <p>
-                <b>Marcelo</b> - 26 anos e . Estudante de Ciência da Computação (UFRGS). Desenvolvedor e entusiasta de linguagens funcionais.
+                <b>Marcelo</b> - 26 anos e Estudante de Ciência da Computação (UFRGS). Desenvolvedor e entusiasta de linguagens funcionais.
             </p>
             <p>
                 <b>Thaciely</b>, 24 anos. Apaixonada por entender as relações sociais e políticas que moldam o mundo. É analista em Políticas Públicas (UFRGS) e é responsável pelo relacionanamento com o poder público.
