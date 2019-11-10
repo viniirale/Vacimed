@@ -8,42 +8,42 @@
     <?php include 'header.php'; ?>
 
     <h1>BUSCA DE MEDICAMENTOS</h1>
-    <P>Preencha pelo menos um dos dados</P>
+    <P>Preencha pelo menos um dos dados abaixo para realizar a busca</P>
 
 
     <form class="font-roboto row">
                 <div class="form-group col-md-6">
-                    <label for="exampleInputFarmacia">Farmacia</label>
-                    <input type="text" class="form-control" id="exampleInputFarmacia" placeholder="Farmacia">
+                    <label for="exampleInputFarmacia">Nome do Medicamento</label>
+                    <input type="text" class="form-control" id="exampleInputFarmacia" >
               
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="exampleregistro">Registro</label>
-                    <input type="text" class="form-control" id="exampleinputRegistro" placeholder="Registro">
+                    <label for="exampleregistro">Registro Medicamento</label>
+                    <input type="text" class="form-control" id="exampleinputRegistro" >
                 </div>
                 <div class="form-group col-md-6">
                     <label for="exampleInputEstado">Estado(UF)</label>
-                    <input type="text" class="form-control" id="exampleInputEstado" placeholder="Estado">
+                    <input type="text" class="form-control" id="exampleInputEstado" >
                 </div>
                 <div class="form-group col-md-6">
                     <label for="exampleInputRua">Sua Rua</label>
-                    <input type="text" class="form-control" id="exampleInputRua" placeholder="Rua">
+                    <input type="text" class="form-control" id="exampleInputRua" >
                 </div>
                 <div class="form-group col-md-6">
                     <label for="exampleInputCidade">Cidade</label>
-                    <input type="text" class="form-control" id="exampleInputCidade" placeholder="Cidade">
+                    <input type="text" class="form-control" id="exampleInputCidade" >
                 </div>
                 <div class="form-group col-md-6">
                     <label for="exampleInputEndereco">Numero de Endereço</label>
-                    <input type="text" class="form-control" id="exampleInputEndereco" placeholder="Endereco">
+                    <input type="text" class="form-control" id="exampleInputEndereco" >
                 </div>
                 <div class="form-group col-md-6">
                     <label for="exampleInputBairro">Bairro</label>
-                    <input type="text" class="form-control" id="exampleInputBairro" placeholder="Bairro">
+                    <input type="text" class="form-control" id="exampleInputBairro" >
                 </div>
                 <div class="form-group col-md-6">
                     <label for="exampleInputCep">Seu Cep</label>
-                    <input type="text" class="form-control" id="exampleInputCep" placeholder="Cep">
+                    <input type="text" class="form-control" id="exampleInputCep" >
                 </div>
                 <button type="submit" class="btn btn-primary center btn-lg">Buscar</button>
             </form>
