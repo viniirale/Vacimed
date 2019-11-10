@@ -23,8 +23,7 @@
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
-                    </li>
+                        <a class="nav-link navbar-color" href="javascript:ouvidoriaLink()">Ouvidoria</a> </li>
                 </ul>
             </div>
         <?php
@@ -49,7 +48,7 @@
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
+                        <a class="nav-link navbar-color" href="javascript:ouvidoriaLink()">Ouvidoria</a>
                     </li>
                 </ul>
             </div>
@@ -66,7 +65,7 @@
                         <a class="nav-link navbar-color " href="index.php">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Medicamentos</a>
+                        <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color bold" href="#">Farmácias</a>
@@ -75,8 +74,7 @@
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
-                    </li>
+                        <a class="nav-link navbar-color" href="javascript:ouvidoriaLink()">Ouvidoria</a> </li>
                 </ul>
             </div>
         <?php
@@ -92,7 +90,7 @@
                         <a class="nav-link navbar-color " href="index.php">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Medicamentos</a>
+                        <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="#">Farmácias</a>
@@ -101,8 +99,7 @@
                         <a class="nav-link navbar-color bold" href="sobreNos.php">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
-                    </li>
+                        <a class="nav-link navbar-color" href="javascript:ouvidoriaLink()">Ouvidoria</a> </li>
                 </ul>
             </div>
         <?php
@@ -118,7 +115,7 @@
                         <a class="nav-link navbar-color bold" href="index.php">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color" href="#">Medicamentos</a>
+                        <a class="nav-link navbar-color" href="medicamentos.php">Medicamentos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar-color" href="#">Farmácias</a>
@@ -127,8 +124,7 @@
                         <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-color bold" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
-                    </li>
+                        <a class="nav-link navbar-color" href="javascript:ouvidoriaLink()">Ouvidoria</a> </li>
                 </ul>
             </div>
         <?php

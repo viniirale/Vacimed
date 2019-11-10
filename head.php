@@ -2,6 +2,7 @@
     <meta charset="utf-8">
     <title>Tem remédio</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
     <!-- Theme CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
