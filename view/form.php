@@ -14,7 +14,7 @@
             </div>
             <div class="form-group form-row">
                 <label class="col-sm-2 col-form-label text-right">Registro Origem:</label>
-                <input type="text" class="form-control col-sm-8 ddd_telform" name="coRegistroOrigem" id="coRegistroOrigem" value="<?php
+                <input type="text" class="form-control col-sm-8 " name="coRegistroOrigem" id="coRegistroOrigem" value="<?php
                 echo isset($produto->coRegistroOrigem) ? $produto->coRegistroOrigem : null;
                 ?>" required>
             </div>
