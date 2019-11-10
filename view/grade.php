@@ -13,9 +13,6 @@
                 <th>Programa de saúde</th>
                 <th>CNPJ distribuidor</th>
                 <th>CNPJ fabricante</th>
-            </tr>
-
-            <tr>
                 <th>Nota fiscal</th>
                 <th>Valor unitário</th>
                 <th>Entrada de estoque</th>
