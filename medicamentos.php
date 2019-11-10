@@ -10,7 +10,7 @@
 
 
     <div class="container font-roboto">
-        <h1 class="text-center">BUSCA DE MEDICAMENTOS</h1>
+        <h3 class="text-center bold marginTop">BUSCA DE MEDICAMENTOS</h3>
         <p class="text-center">Preencha pelo menos um dos dados</p>
         <form class="row">
             <div class="form-group col-md-6">
