@@ -48,34 +48,7 @@ spl_autoload_register(function ($class) {
         }
     } else {
         ?>
-        <header class="header-index">
-            <img src="img/logo.png" alt="Logo" width="300" height="118" class="img-fluid center">
-        </header>
-
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-index ">
-
-                <div class="collapse navbar-collapse center-navbar " id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <a class="nav-link navbar-color" href="index.php">Página Inicial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="#">Medicamentos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="#">Farmácias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </section>
+        <?php include 'header.php';?>
 
         <section class="font-roboto">
             <h3 class="text-center bold" id="oquedeseja">
@@ -96,38 +69,7 @@ spl_autoload_register(function ($class) {
             </div>
         </section>
 
-        <footer>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-index ">
-
-                <div class="collapse navbar-collapse center-navbar " id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <a class="nav-link navbar-color" href="#">Página Inicial</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="#">Medicamentos</a>
-                            <small><a class="nav-link navbar-color" href="#">Busca por Código</a></small>
-                            <small><a class="nav-link navbar-color" href="#">Busca por Preço</a></small>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="#">Farmácias</a>
-                            <small><a class="nav-link navbar-color" href="#">Busca por Proximidade</a></small>
-                            <small><a class="nav-link navbar-color" href="#">Buscar meu Preço</a></small>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="sobreNos.php">Quem Somos</a>
-                            <small><a class="nav-link navbar-color" href="sobreNos.php#nossoprojeto">O Projeto</a></small>
-                            <small><a class="nav-link navbar-color" href="sobreNos.php#nos">A Equipe</a></small>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navbar-color" href="https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx">Ouvidoria</a>
-                            <small><a class="nav-link navbar-color" href="#">Sobre a Ouvidoria</a></small>
-                            <small><a class="nav-link navbar-color" href="#">Faça uma Requisição</a></small>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </footer>
+        <?php include 'footer.php';?>
 
         <?php
             /*
@@ -138,8 +80,6 @@ spl_autoload_register(function ($class) {
     <?php
     }
     ?>
-
-
 </body>
 
 </html>
