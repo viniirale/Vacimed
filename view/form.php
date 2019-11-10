@@ -8,7 +8,7 @@
             </div>
             <div class="form-group form-row">
                 <label class="col-sm-2 col-form-label text-right">Número do produto:</label>
-                <input type="text" class="form-control col-sm-8" name="nuProduto" id="nuProduto" value="<?php
+                <input type="text" class="form-control col-sm-8 ddd_telform" name="nuProduto" id="nuProduto" value="<?php
                 echo isset($produto->nuProduto) ? $produto->nuProduto : null;
                 ?>" required>
             </div>
