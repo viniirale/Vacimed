@@ -6,8 +6,8 @@ function farmaciaLink(img) {
 }
 
 function ouvidoriaLink() {
-    alert("Você será redirecionado para o site da Ouvidoria");
-    window.location = "https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx";
+    window.open('https://sistema.ouvidorias.gov.br/publico/Manifestacao/SelecionarTipoManifestacao.aspx', '_blank');
+    win.focus();
 }
 
 function showFarmacia() {
