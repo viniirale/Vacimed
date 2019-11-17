@@ -12,7 +12,7 @@ spl_autoload_register(function ($class) {
 <!DOCTYPE html>
 <html lang='pt-br'>
 
-<?php include 'head.php';?>
+<?php include 'head.php'; ?>
 
 <body id="index">
 
@@ -34,7 +34,8 @@ spl_autoload_register(function ($class) {
         }
     } else {
         ?>
-        <?php include 'header.php';?>
+        <?php include 'header.php'; ?>
+        
 
         <section class="font-roboto">
             <h3 class="text-center bold" id="oquedeseja">
@@ -55,7 +56,7 @@ spl_autoload_register(function ($class) {
             </div>
         </section>
 
-        <?php include 'footer.php';?>
+        <?php include 'footer.php'; ?>
 
     <?php
     }
